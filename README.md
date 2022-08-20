@@ -16,7 +16,6 @@
 
 ## 环境 (Environment)
 
-* CPU友好型！无须特地安装CUDA 等GPU驱动支持
 * CUDA CUDNN(非必须）
 * sentence-transformers
 * python 3.7
@@ -43,6 +42,8 @@ RN50_Images_Encoder | https://pan.baidu.com/s/1n176W2o6U4IXjGLljn5YDA  | vozu
   网盘链接：https://pan.baidu.com/s/1VrhnDy0xqqW4--VgBBUwAg 
   提取码：knzb 
 
-## 使用
+## 使用方法
+
+
 ## 未完待续
 

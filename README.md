@@ -9,6 +9,24 @@
  * 尝试引入shufflenetv2/resnet等作为CLIP编码器的新backbone,作为eeg信号，语音时序、频域信号等第三模态的主干特征提取网络
  * 该项目为个人想法的小实现；旨在基于大规模预训练模型，尝试融合（eeg、语音、图像、文本）4模态信号训练模拟人类情感
 
+## Paper
+
+* openai-CLIP([CVPR2021](https://arxiv.org/abs/2103.00020))
+
+
+## 环境 (Environment)
+
+* CPU友好型！无须特地安装CUDA 等GPU驱动支持
+* CUDA CUDNN(非必须）
+* sentence-transformers
+* python 3.7
+* numpy
+* pandas
+* Windows
+* Pythorch
+* Pillow
+
+
 
 ## 相关仓库
 | 模型 | 网盘路径 | 提取码 |
@@ -25,5 +43,6 @@ RN50_Images_Encoder | https://pan.baidu.com/s/1n176W2o6U4IXjGLljn5YDA  | vozu
   网盘链接：https://pan.baidu.com/s/1VrhnDy0xqqW4--VgBBUwAg 
   提取码：knzb 
 
+## 使用
 ## 未完待续
 

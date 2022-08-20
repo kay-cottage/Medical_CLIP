@@ -21,11 +21,13 @@ class image_caption_dataset(Dataset):
                                      transforms.ToTensor(), # 转为张量
                                      transforms.Normalize((0.48145466, 0.4578275, 0.40821073), (.26862954, 0.26130258, 0.27577711)),#args from openai-clip
                                      ])
+        '''
         self.vit_transform = transforms.Compose([transforms.RandomResizedCrop(224),
                                      #transforms.Grayscale(3),
                                      transforms.ToTensor(), # 转为张量
                                      
                                      ])
+        '''
 
     def __len__(self):
         return len(self.caption)
@@ -33,10 +35,10 @@ class image_caption_dataset(Dataset):
     def __getitem__(self, idx):
         img=Image.open(self.images[idx])
         images=self.transform(img)
-        vit_img=self.vit_transform(img)
+        #vit_img=self.vit_transform(img)
 
         caption = self.caption[idx]
-        return vit_img,images, caption
+        return images, caption
 
 
 # images to images

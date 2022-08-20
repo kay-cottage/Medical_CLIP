@@ -2,11 +2,11 @@
 
 ## 介绍：
 
- * 尝试引入shufflenetv2/resnet等作为CLIP编码器的新backbone
  * 以文本编码器及图像编码器作为老师模型，训练3模态及以上的多模态模型
  * 基于openai RN50重构图像编码器和文本编码器代码及其各自的预训练权重
  * 提供多模态中文CLIP网络微调、训练的相关代码（openai-CLIP finetune and train）
  * 包含CLIP多语言模型、ViT-B-32、封神榜模型、以及最大的中文多模态图像文本对数据集Wukong的网盘下载地址
+ * 尝试引入shufflenetv2/resnet等作为CLIP编码器的新backbone,作为eeg信号，语音时序、频域信号等第三模态的主干特征提取网络
  * 该项目为个人想法的小实现；旨在基于大规模预训练模型，尝试融合（eeg、语音、图像、文本）4模态信号训练模拟人类情感
 
 
@@ -25,4 +25,5 @@ RN50_Images_Encoder | https://pan.baidu.com/s/1n176W2o6U4IXjGLljn5YDA  | vozu
   网盘链接：https://pan.baidu.com/s/1VrhnDy0xqqW4--VgBBUwAg 
   提取码：knzb 
 
+## 未完待续
 
